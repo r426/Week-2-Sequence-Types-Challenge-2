@@ -39,3 +39,8 @@ countriesSet.update({'India', 'Japan'})
 print(countriesSet)
 countriesSet.remove('France')
 print(countriesSet)
+
+a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
+print(a[-5:-3])
+print(a[:] is a)
+print(a[4::-2])

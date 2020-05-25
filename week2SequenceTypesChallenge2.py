@@ -5,7 +5,10 @@ str1 = "hello python three"
 
 set1 = set(l1)
 uniqueL1 = len(set1)
-print("There are " + str(uniqueL1) + " unique elements in l1.")
+#print("There are " + str(uniqueL1) + " unique elements in l1.")
+#this line is showing error in Python Notebook.
+
+print("There are {} unique elements in l1.".format(uniqueL1))
 
 # Step 2. After looking at the result of Step 1, print odd elements only.
 
